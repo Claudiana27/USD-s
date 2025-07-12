@@ -1,0 +1,1056 @@
+#container{
+   width: 80% auto;
+   height: 730px;
+   background-color: rgb(3, 31, 47);
+   margin: auto;
+   padding: 10px;
+}
+.image1{
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    background-image: url('images/fond.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 20px rgba(1, 1, 1, 0.4);
+    border-radius: 30px;
+    margin-top: 100px;
+    margin-left: auto;
+}
+.header{
+    width: 92.5%;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-top: -26%;
+    margin-left: 0.5%;
+    display: block;
+}
+.logo{
+    width: 60px;
+    height: 50px;
+    margin-top: -33%;
+    position: absolute;
+    left: 60%;
+    background-image: url('images/logo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 60px;
+}
+.etoiles{
+    color: gold;
+    font-size: 15px;
+}
+.deco{
+    width: 25%;
+    height: 400px;
+    background-image: url('images/logo\ -\ Copie.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -43%;
+    margin-left: -0.5%;
+}
+.bienvenue{
+    font-size: 60px;
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    top: 45%;
+    margin-left: 26%;
+}
+.para{
+    font-size: 30px;
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    top: 35%;
+}
+.image2{
+    width: 900px;
+    height: 700px;
+    position: absolute;
+    background-image: url('images/smile.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 80%;
+    left: 35%;
+}
+.texte{
+    width: 450px;
+    height: 400px;
+    position: absolute;
+    background-color: none;
+    top: 820px;
+    text-align: center;
+    font-size: 27px;
+    font-style: italic;
+    line-height: 50px;
+}
+#container1{
+    width: 80% auto;
+    height: 730px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 45%;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    align-items: center;
+    margin-left: 5%;
+}
+.flèche{
+    font-size: 90px;
+    color: white;
+    position: absolute;
+    top: 1370px;
+    left: 25%;
+    animation: bounceRight 1.5s infinite;
+    transform: rotate(-5deg);
+}
+@keyframes bounceRight{
+    0% {
+        transform: translateX(0) rotate(-3deg);
+        color: white;
+    }
+    50% {
+        transform: translateX(15px) rotate(-3deg);
+        color: gold;
+    }
+    100% {
+        transform: translateX(0) rotate(-3deg);
+        color: rgb(3, 31, 47);
+    }
+} 
+.boite1{
+    width: 450px;
+    height: 500px;
+    background-color: none;
+    position: relative;
+    top: 10%;
+    border-radius: 100px;
+}
+.boite3{
+    width: 450px;
+    height: 500px;
+    background-color: none;
+    position: relative;
+    top: -60%;
+    left: 67%;
+    border-radius: 100px;
+}
+.boite2{
+    width: 700px;
+    height: 100px;
+    position: absolute;
+    background-color: none;
+    left: 25%;
+    top: 2120px;
+}
+h2{
+    text-align: center;
+    align-items: center;
+}
+ul{
+    text-align: center;
+    list-style: none;
+}
+.bold{
+    font-weight: bold;
+    font-size: 18px;
+}
+.frontend{
+    width: 200px;
+    height: 200px;
+    background-color: none;
+    position: absolute;
+    top: 180px;
+    left: -45%;
+    border-radius: 80px;
+    border: 2px solid rgb(3, 31, 47);
+}
+.backend{
+    width: 200px;
+    height: 200px;
+    background-color: none;
+    position: absolute;
+    top: 300px;
+    left: -15%;
+    border-radius: 80px;
+    border: 2px solid rgb(3, 31, 47);
+}
+.Iot{
+    width: 200px;
+    height: 200px;
+    background-color: none;
+    position: absolute;
+    top: 400px;
+    left: 20%;
+    border-radius: 80px;
+    border: 2px solid rgb(3, 31, 47);
+}
+.IA{
+    width: 200px;
+    height: 200px;
+    background-color: none;
+    position: absolute;
+    top: 400px;
+    left: 55%;
+    border-radius: 80px;
+    border: 2px solid rgb(3, 31, 47);
+}
+.Mobile{
+    width: 200px;
+    height: 200px;
+    background-color: none;
+    position: absolute;
+    top: 300px;
+    left: 90%;
+    border-radius: 80px;
+    border: 2px solid rgb(3, 31, 47);
+}
+.Game{
+    width: 200px;
+    height: 200px;
+    background-color: none;
+    position: absolute;
+    top: 180px;
+    left: 120%;
+    border-radius: 80px;
+    border: 2px solid rgb(3, 31, 47);
+}
+h3{
+    text-align: center;
+    font-size: 15px;
+    animation: Colorcycle 3s infinite ease-in-out;
+}
+@keyframes Colorcycle {
+    0% { color: black;}
+    33% { color: gold;}
+    66% { color: rgb(3, 31, 47)}
+    100% { color: rgb(1, 100, 43);}
+}
+.vscode{
+    width: 50px;
+    height: 30px;
+    display: flex;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.nodejs{
+    width: 50px;
+    height: 30px;
+    margin-top: -10%;
+    margin-left: 60%;
+}
+.souhait{
+    width: 900px;
+    height: 200px;
+    margin-top: 35%;
+    margin-left: 25%;
+}
+.a{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-left: -12%;
+}
+.b{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-left: 0;
+}
+.c{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-left: 0;
+}
+.deco1{
+    font-size: 80px;
+    position: absolute;
+    top: 2900px;
+    left: 10%;
+}
+.deco3{
+    font-size: 80px;
+    position: absolute;
+    top: 3000px;
+    left: 10%;
+}
+.deco2{
+    font-size: 80px;
+    position: absolute;
+    top: 2900px;
+    left: 90%;
+}
+.deco4{
+    font-size: 80px;
+    position: absolute;
+    top: 3000px;
+    left: 90%;
+}
+footer{
+    width: auto;
+    height: 200px;
+    background-color: rgb(3, 31, 47);
+    margin-top: 90%;
+}
+.discord {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-top: 5%;
+    margin-left: 30%;
+}
+.whatsapp{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+.linkedIn{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+.gmail{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+.instagram{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+.facebook{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+.git{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+.foot{
+    font-size: 18px;
+    color: white;
+    margin: 3%;
+    text-align: center;
+}
+
+@media (max-width: 1322px) and (min-width: 1305px){
+    .flèche{
+        top: 1353px;
+    }
+    .souhait{
+        margin-top: 35%;
+        margin-left: 20%;
+    }
+    .deco1{
+        top: 2875px;
+        left: 8%;
+    }
+    .deco3{
+        top: 2950px;
+        left: 8%;
+    }
+    .deco2{
+        top: 2880px;
+        left: 88%;
+    }
+    .deco4{
+        top: 2950px;
+        left: 88%;
+    }
+
+}
+@media (max-width: 1304px) and (min-width: 1298px){
+    .flèche{
+        top: 1335px;
+        left: 25%;
+    }
+    .souhait{
+        margin-top: 36%;
+        margin-left: 19%;
+    }
+    .deco1{
+        top: 2875px;
+        left: 8%;
+    }
+    .deco3{
+        top: 2950px;
+        left: 8%;
+    }
+    .deco2{
+        top: 2880px;
+        left: 86%;
+    }
+    .deco4{
+        top: 2950px;
+        left: 86%;
+    }
+}
+@media (max-width: 1297px) and (min-width: 1281px){
+    .flèche{
+        top: 1335px;
+        left: 25%;
+    }
+    .souhait{
+        margin-top: 36%;
+        margin-left: 19%;
+    }
+    .deco1{
+        top: 2875px;
+        left: 8%;
+    }
+    .deco3{
+        top: 2950px;
+        left: 8%;
+    }
+    .deco2{
+        top: 2880px;
+        left: 86%;
+    }
+    .deco4{
+        top: 2950px;
+        left: 86%;
+    }
+}
+@media (max-width: 1280px) and (min-width: 1251px){
+    .flèche{
+        left: 22%;
+        top: 1340px;
+    }
+    .souhait{
+        margin-top: 36%;
+        margin-left: 19%;
+    }
+    .deco1{
+        top: 2875px;
+        left: 8%;
+    }
+    .deco3{
+        top: 2950px;
+        left: 8%;
+    }
+    .deco2{
+        top: 2880px;
+        left: 86%;
+    }
+    .deco4{
+        top: 2950px;
+        left: 86%;
+    }
+}
+@media (max-width: 1250px) and (min-width: 1220px){
+    .texte{
+        left: -1%;
+    }
+    .flèche{
+        top: 1325px;
+        left: 22%;
+    }
+    .souhait{
+        margin-top: 40%;
+        margin-left: 18%;
+    }
+    .deco1{
+        top: 2875px;
+        left: 8%;
+    }
+    .deco3{
+        top: 2950px;
+        left: 8%;
+    }
+    .deco2{
+        top: 2880px;
+        left: 86%;
+    }
+    .deco4{
+        top: 2950px;
+        left: 86%;
+    }
+}
+@media (max-width: 1219px) and (min-width: 1190px){
+    .texte{
+        font-size: 24px;
+        left: -1%;
+    }
+    .flèche{
+        font-size: 80px;
+        top: 1312px;
+        left: 22%;
+    }
+    .souhait{
+        width: 800px;
+        height: 200px;
+        margin-top: 40%;
+        margin-left: 22%;
+    }
+    .a, .b, .c {
+        font-size: 35px;
+    }
+    .deco1{
+        font-size: 70px;
+        position: absolute;
+        top: 2875px;
+        left: 8%;
+    }
+    .deco3{
+        font-size: 70px;
+        position: absolute;
+        top: 2950px;
+        left: 8%;
+    }
+    .deco2{
+        font-size: 70px;
+        position: absolute;
+        top: 2880px;
+        left: 86%;
+    }
+    .deco4{
+        font-size: 70px;
+        position: absolute;
+        top: 2950px;
+        left: 86%;
+    }
+}
+@media (max-width: 1189px) and (min-width: 1150px){
+    .texte{
+        font-size: 24px;
+        left: -1%;
+    }
+    .flèche{
+        font-size: 80px;
+        top: 1300px;
+        left: 22%;
+    }
+    .souhait{
+        width: 800px;
+        height: 200px;
+        margin-top: 44%;
+        margin-left: 21%;
+    }
+    .a, .b, .c {
+        font-size: 35px;
+    }
+    .deco1{
+        font-size: 70px;
+        position: absolute;
+        top: 2875px;
+        left: 8%;
+    }
+    .deco3{
+        font-size: 70px;
+        position: absolute;
+        top: 2950px;
+        left: 8%;
+    }
+    .deco2{
+        font-size: 70px;
+        position: absolute;
+        top: 2880px;
+        left: 86%;
+    }
+    .deco4{
+        font-size: 70px;
+        position: absolute;
+        top: 2950px;
+        left: 86%;
+    }   
+}
+@media (max-width: 1149px) and (min-width: 1090px){
+    .texte{
+        font-size: 20px;
+        left: -1%;
+    }
+    .flèche{
+        font-size: 80px;
+        top: 1320px;
+        left: 22%;
+    }
+    h1{
+        font-size: 35px;
+        margin-top: 10%;
+    }
+    .souhait{
+        width: 800px;
+        height: 200px;
+        margin-top: 34%;
+        margin-left: 21%;
+    }
+    .a, .b, .c {
+        font-size: 32px;
+    }
+    .deco1{
+        font-size: 60px;
+        position: absolute;
+        top: 2750px;
+        left: 8%;
+    }
+    .deco3{
+        font-size: 70px;
+        position: absolute;
+        top: 2800px;
+        left: 8%;
+    }
+    .deco2{
+        font-size: 70px;
+        position: absolute;
+        top: 2750px;
+        left: 86%;
+    }
+    .deco4{
+        font-size: 70px;
+        position: absolute;
+        top: 2800px;
+        left: 86%;
+    } 
+}
+@media (max-width: 1089px) and (min-width: 1024px){
+    .logo{
+        left: 72%;
+        width: 50px;
+        height: 40px;
+    }
+    .etoiles{
+        margin-left: 7%;
+    }
+    .deco{
+        width: 30%;
+        height: 400px;
+    }
+    .image1{
+        width: 55%;
+        height: 70%;
+    }
+    .texte{
+        font-size: 20px;
+        left: 1%;
+        width: 300px;
+        height: 500px;
+    }
+    .flèche{
+        font-size: 80px;
+        top: 1320px;
+        left: 22%;
+    }
+    h1{
+        font-size: 35px;
+        margin-top: 10%;
+    }
+    .souhait{
+        width: 800px;
+        height: 200px;
+        margin-top: 34%;
+        margin-left: 21%;
+    }
+    .a, .b, .c {
+        font-size: 32px;
+    }
+    .deco1{
+        font-size: 60px;
+        position: absolute;
+        top: 2750px;
+        left: 8%;
+    }
+    .deco3{
+        font-size: 70px;
+        position: absolute;
+        top: 2800px;
+        left: 8%;
+    }
+    .deco2{
+        font-size: 70px;
+        position: absolute;
+        top: 2750px;
+        left: 86%;
+    }
+    .deco4{
+        font-size: 70px;
+        position: absolute;
+        top: 2800px;
+        left: 86%;
+    } 
+}
+@media (max-width: 430px) and (min-width: 360px){
+    #container{
+        width: 1000px;
+        height: 480px;
+        background-color: rgb(3, 31, 47);
+     }
+     .image1{
+         width: 75%;
+         justify-content: center;
+         align-items: center;
+         height: 400px;
+         display: flex;
+         flex-direction: column;
+         background-image: url('images/fond.jpg');
+         background-size: cover;
+         background-repeat: no-repeat;
+         box-shadow: 0 0 20px rgba(1, 1, 1, 0.4);
+         border-radius: 30px;
+         margin-top: 100px;
+         margin-left: auto;
+     }
+     .header{
+        width: 92.5%;
+        height: 60px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 5px;
+        margin-top: -5%;
+        margin-left: 0.5%;
+        display: block;
+    }
+    .logo{
+        width: 60px;
+        height: 50px;
+        margin-top: -65%;
+        position: absolute;
+        left: 170%;
+        background-image: url('images/logo.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 60px;
+    }
+    .etoiles{
+        color: gold;
+        font-size: 15px;
+    }
+    .deco{
+        width: 25%;
+        height: 400px;
+        background-image: url('images/logo\ -\ Copie.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: -43%;
+        margin-left: -0.5%;
+    }
+    .bienvenue{
+        font-size: 60px;
+        position: relative;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        text-align: center;
+        align-items: center;
+        top: 35%;
+        margin-left: 26%;
+    }
+    .para{
+        font-size: 30px;
+        position: relative;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        text-align: center;
+        align-items: center;
+        top: 15%;
+    }
+    .image2{
+        width: 700px;
+        height: 500px;
+        background-image: url('images/smile.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        top: 60%;
+        left: 120%;
+    }
+    .texte{
+        width: 450px;
+        height: 400px;
+        position: absolute;
+        background-color: none;
+        top: 500px;
+        text-align: center;
+        font-size: 27px;
+        font-style: italic;
+        line-height: 50px;
+    }
+    #container1{
+        width: 80% auto;
+        height: 730px;
+        background-color: rgb(255, 255, 255);
+        margin-top: 160%;
+        padding: 10px;
+    }
+    h1{
+        text-align: center;
+        font-size: 30px;
+        align-items: center;
+        margin-left: 100%;
+    }
+    .flèche{
+        font-size: 90px;
+        color: white;
+        position: absolute;
+        top: 1100px;
+        left: 45%;
+        animation: bounceRight 1.5s infinite;
+        transform: rotate(-5deg);
+    }
+    @keyframes bounceRight{
+        0% {
+            transform: translateX(0) rotate(-3deg);
+            color: white;
+        }
+        50% {
+            transform: translateX(15px) rotate(-3deg);
+            color: gold;
+        }
+        100% {
+            transform: translateX(0) rotate(-3deg);
+            color: rgb(3, 31, 47);
+        }
+    } 
+    .boite1{
+        width: 450px;
+        height: 500px;
+        background-color: none;
+
+        top: 10%;
+        border-radius: 100px;
+    }
+    .boite3{
+        width: 450px;
+        height: 500px;
+        background-color: none;
+
+        top: -62%;
+        left: 130%;
+        border-radius: 100px;
+    }
+    .boite2{
+        width: 700px;
+        height: 100px;
+        position: absolute;
+        background-color: none;
+        left: 25%;
+        top: 1900px;
+    }
+    h2{
+        text-align: center;
+        align-items: center;
+    }
+    ul{
+        text-align: center;
+        list-style: none;
+    }
+    .bold{
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .frontend{
+        width: 200px;
+        height: 200px;
+        background-color: none;
+        top: 150px;
+        left: 10%;
+        border-radius: 80px;
+        border: 2px solid rgb(3, 31, 47);
+    }
+    .backend{
+        width: 200px;
+        height: 200px;
+        background-color: none;
+        position: absolute;
+        top: 370px;
+        left: 10%;
+        border-radius: 80px;
+        border: 2px solid rgb(3, 31, 47);
+    }
+    .Iot{
+        width: 200px;
+        height: 200px;
+        background-color: none;
+        position: absolute;
+        top: 600px;
+        left: 10%;
+        border-radius: 80px;
+        border: 2px solid rgb(3, 31, 47);
+    }
+    .IA{
+        width: 200px;
+        height: 200px;
+        background-color: none;
+        position: absolute;
+        top: 600px;
+        left: 60%;
+        border-radius: 80px;
+        border: 2px solid rgb(3, 31, 47);
+    }
+    .Mobile{
+        width: 200px;
+        height: 200px;
+        background-color: none;
+        position: absolute;
+        top: 370px;
+        left: 60%;
+        border-radius: 80px;
+        border: 2px solid rgb(3, 31, 47);
+    }
+    .Game{
+        width: 200px;
+        height: 200px;
+        background-color: none;
+        top: 150px;
+        left: 60%;
+        border-radius: 80px;
+        border: 2px solid rgb(3, 31, 47);
+    }
+    h3{
+        text-align: center;
+        font-size: 15px;
+        animation: Colorcycle 3s infinite ease-in-out;
+    }
+    @keyframes Colorcycle {
+        0% { color: black;}
+        33% { color: gold;}
+        66% { color: rgb(3, 31, 47)}
+        100% { color: rgb(1, 100, 43);}
+    }
+    .vscode{
+        width: 50px;
+        height: 30px;
+        display: flex;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+    .nodejs{
+        width: 50px;
+        height: 30px;
+        margin-top: -10%;
+        margin-left: 60%;
+    }
+    .souhait{
+        width: 700px;
+        height: 200px;
+        margin-top: 250%;
+        margin-left: 40%;
+    }
+    .a{
+        font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        margin-left: -12%;
+    }
+    .b{
+        font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        margin-left: 0;
+    }
+    .c{
+        font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        margin-left: 0;
+    }
+    .deco1{
+        font-size: 50px;
+        position: absolute;
+        top: 3000px;
+        left: 10%;
+    }
+    .deco3{
+        font-size: 50px;
+        position: absolute;
+        top: 3100px;
+        left: 10%;
+    }
+    .deco2{
+        font-size: 50px;
+        position: absolute;
+        top: 3000px;
+        left: 220%;
+    }
+    .deco4{
+        font-size: 50px;
+        position: absolute;
+        top: 3100px;
+        left: 220%;
+    }
+    footer{
+        width: 1000px;
+        height: 200px;
+        background-color: rgb(3, 31, 47);
+        margin-top: 1800px;
+    }
+    .discord {
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        margin-top: 5%;
+        margin-left: 25%;
+    }
+    .whatsapp{
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        margin-top: 5%;
+        margin-left: 2%;
+    }
+    .linkedIn{
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        margin-top: 5%;
+        margin-left: 3%;
+    }
+    .gmail{
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        margin-top: 5%;
+        margin-left: 3%;
+    }
+    .instagram{
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        margin-top: 5%;
+        margin-left: 3%;
+    }
+    .facebook{
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        margin-top: 5%;
+        margin-left: 3%;
+    }
+    .git{
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        margin-top: 5%;
+        margin-left: 3%;
+    }
+    .foot{
+        font-size: 18px;
+        color: white;
+        margin-left: -5%;
+        text-align: center;
+    }
+}
+
